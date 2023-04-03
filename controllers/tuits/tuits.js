@@ -39,7 +39,7 @@ export default [
         "shares": 2400,
         "likes": 4000,
         "_id": 3
-    }
+    },
     {
      "_id": "345", "topic": "Brain Injuries", "username": "",
      "handle": "", "time": "3h", "image": "neurolink.jpg",
