@@ -41,7 +41,7 @@ const deleteUser = (req, res) => {
 }
 
 const updateUser = (req, res) => {
-    const userId = req.params['uid']
+    const userId = req.params.uid
     const updates = req.body
     users = users.map((usr) => 
         usr._id === userId ? 
