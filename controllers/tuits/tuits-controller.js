@@ -9,9 +9,6 @@ const TuitController = (app) => {
 
 const createTuit = async (req, res) => {
     const newTuit = req.body
-    console.log("hello")
-    console.log(newTuit)
-    console.log('hello')
     newTuit.likes = 0
     newTuit.liked = false
     newTuit.replies = 0
@@ -23,20 +20,20 @@ const createTuit = async (req, res) => {
 const findTuits = async (req, res) => {
     const tuits = await tuitsDao.findTuits()
     res.json(tuits);
- }
+}
 
 const updateTuit = async (req, res) => {
-    console.log('updating likes on tweet' + {tuitId})
-    const tuitId = req.params.tid 
+    const tuitId = req.params.tid
     const updates = req.body
+    console.log(updates)
     const status = await tuitsDao.updateTuit(tuitId, updates);
-    res.sendStatus(status)
+    res.json(status)
 }
 
 const deleteTuit = async (req, res) => {
-    const tuitId = req.params.tid 
+    const tuitId = req.params.tid
     const status = await tuitsDao.deleteTuit(tuitId)
-    res.sendStatus(status)
+    res.json(status)
 }
 
 

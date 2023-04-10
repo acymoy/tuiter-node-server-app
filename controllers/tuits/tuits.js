@@ -1,6 +1,6 @@
 export default [
     {
-        "userProfile": "https://cdn.britannica.com/05/236505-050-17B6E34A/Elon-Musk-2022.jpg",
+        "userProfile": "https://pbs.twimg.com/profile_images/1082744382585856001/rH_k3PtQ_400x400.jpg",
         "userName": "SpaceX",
         "handle": "spacex",
         "time": "2h",
@@ -32,7 +32,7 @@ export default [
         "handle": "@neuralink",
         "time": "3h",
         "text": "Neurolink is an American company founded by Elon Musk that specializes in brain to computer integration. The first application will be to cure spinal cord injuries so that paraplegics can walk again. Other applications include curing blindness and mental disorders.",
-        "mediaThumbnail": "https://pbs.twimg.com/card_img/1641157949916626954/hXG9rMnx?format=jpg&name=small",
+        "mediaThumbnail": "https://pbs.twimg.com/media/C94gi-ZWAAcv1ae?format=jpg&name=small",
         "mediaTitle": "",
         "mediaDescription": "",
         "comments": 965,

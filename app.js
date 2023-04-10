@@ -11,8 +11,8 @@ mongoose.connect(CONNECTION_STRING)
 console.log(mongoose.connection.readyState)
 
 const app = express()
-app.listen(process.env.PORT || 4000);
 app.use(cors())
+app.listen(process.env.PORT || 4000);
 app.use(express.json())
 HelloController(app)
 UserController(app)
